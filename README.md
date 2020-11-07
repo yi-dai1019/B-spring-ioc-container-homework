@@ -1,0 +1,1 @@
+import某些已有的class时，这些class有可能并不是使用Spring写的，我们不能在打包好的jar包上对class添加Component注解以使Container对其进行管理，此时就需要组合使用@Configuration和@Bean
